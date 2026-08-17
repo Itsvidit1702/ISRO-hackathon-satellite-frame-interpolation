@@ -1,0 +1,32 @@
+# System & Environments
+.venv/
+venv/
+env/
+isro_env/
+node_modules/
+**/node_modules/
+dist/
+__pycache__/
+*.pyc
+
+# Data & Models
+data/
+models/
+runs/
+*.nc
+
+# Secrets & Environment Variables
+.env
+.env*
+**/.env
+**/.env*
+
+# Logs
+*.log
+nohup.out
+download_log.txt
+.coverage
+
+# Overarching Output Directory Mask
+outputs/
+outputs/**
